@@ -20,6 +20,7 @@ async (req,res)=>{
     }
 
     const {name, email, password, avatar,date}= req.body;
+
     try {
         let user= await User.findOne({email});
         if (user) {
@@ -30,6 +31,7 @@ async (req,res)=>{
             r:'pg',
             d:'mm'
         })
+
         user = new User({
             name,
             email,

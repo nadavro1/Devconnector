@@ -1,0 +1,51 @@
+{
+    "DB": [
+        "MongoDB",
+        "MySQL",
+        {
+            "MSSQL": [
+                "Store Procedures",
+                "functions",
+                "in-depth queries"
+            ]
+        }
+    ],
+    "back-end": {
+        "PHP": [
+            "SESSION",
+            "objectOriented",
+            "API"
+        ],
+        "node.js": [
+            "server",
+            "crud - operations",
+            "jwt",
+            "express",
+            "mongoose",
+            "joi"
+        ]
+    },
+    "front-end": {
+        "ReactJS": [
+            "REDUX",
+            "Axios",
+            "Hooks"
+        ],
+        "Javascript": [
+            "Vanilla",
+            "ES6",
+            "AJAX",
+            "jQuery"
+        ]
+    },
+    "dev-env": [
+        "Bitbucket",
+        "Jira",
+        "AWS",
+        "Sprint"
+    ],
+    "tools":[
+        "Postman",
+        "Plesk"
+    ]
+}
